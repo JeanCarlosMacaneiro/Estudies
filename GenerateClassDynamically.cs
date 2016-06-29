@@ -5,8 +5,6 @@ using System.Reflection;
 using System.Reflection.Emit;
 using System.Web;
 
-namespace Salus.Esocial.Areas
-{
     public class GenerateClassDynamically
     {
         public object CreateObject(Object value, string nameClass)
@@ -156,4 +154,3 @@ namespace Salus.Esocial.Areas
         #endregion
 
     }
-}
